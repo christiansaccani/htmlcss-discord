@@ -33,7 +33,7 @@
 /* nav */
 
 nav {
-    background-color: #3161e0;
+    background-color: #255ee9;
     padding: 0px 10px;
 }
 
@@ -49,7 +49,7 @@ nav {
 }
 
 .nav-elements > div {
-    background-color: #3161e0;
+    background-color: #255ee9;
 
     padding: 10px;
 }
@@ -172,7 +172,7 @@ main > section:nth-child(odd) {
 }
 
 main > section:nth-child(even) {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
     padding: 0px 10px;
 }
 
@@ -243,7 +243,6 @@ footer {
 }
 
 #footer-element1 > .first-box {
-    border: 1px black dashed;
     flex-grow: 1.4;   /* width: 40%; */
     height: 600px;
 }
@@ -281,11 +280,35 @@ footer {
     fill: white;
 }
 
+/* fine prima parte del footer */
+
+/* inizio seconda parte */
+
 #footer-element1 > .column-box {
-    border: 1px white dashed;
-    background-color: #20b2aa;
     flex-grow: 1;       /* width: 28%; */
     height: 600px;
+
+    padding-top: 5px;
+}
+
+#footer-element1 > .column-box > figcaption {
+    font-family: 'whitneysemibold';
+    color: #7289db;
+
+    font-size: 15px;
+}
+
+#footer-element1 > .column-box > ul {
+    list-style: none;
+
+    font-family: 'whitney';
+    color: white;
+}
+
+#footer-element1 > .column-box > ul > li{
+    font-size: 15px;
+
+    padding-top: 15px;
 }
 
 #footer-element2 {
