@@ -21,7 +21,7 @@
     flex-direction: column;
     justify-content: center;
 
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .row {
@@ -129,8 +129,6 @@ header {
     text-align: center;
 }
 
-
-
 .mac-button
 {
     padding: 20px 35px;
@@ -187,12 +185,12 @@ main > section:nth-child(even) {
 /* APPUNTO PERSONALE: ricorda che hai impostato una max-widht, perciò justify-content e margin vanno combinati per mettere effettivamente l'elemento al centro */
 
 .img-box {
-    flex-grow: 3;   /* width: 60%; */
+    flex-grow: 3;
     height: 520px;
 }
 
 .txt-box {
-    flex-grow: 2;   /* width: 40%; */
+    flex-grow: 2;
     height: 520px;
     padding: 35px;
 
@@ -202,7 +200,7 @@ main > section:nth-child(even) {
 /* bigboy */
 
 .big-box {
-    flex-grow: 1;   /* widht=100% */
+    flex-grow: 1;
     height: 1200px;
     text-align: center;
 }
@@ -233,7 +231,7 @@ main > section:nth-child(even) {
 
 footer {
     background-color: #23272a;
-    padding: 0px 10px;
+    padding: 0px 10px 115px 10px;
 }
 
 #footer-element1 {
@@ -244,7 +242,7 @@ footer {
 }
 
 #footer-element1 > .first-box {
-    flex-grow: 1.4;   /* width: 40%; */
+    flex-grow: 1.4;
     height: 400px;
 }
 
@@ -286,7 +284,7 @@ footer {
 /* inizio seconda parte */
 
 #footer-element1 > .column-box {
-    flex-grow: 1;       /* width: 28%; */
+    flex-grow: 1;
     height: 400px;
 
     padding-top: 5px;
@@ -323,28 +321,24 @@ footer {
     flex-direction: row;
     justify-content: space-between;
 
-    background-color: #7fffd4;
-    flex-grow: 1;   /* width: 100%; */
+    flex-grow: 1;
     margin: 0 auto;
     padding: 20px 0px;
 }
 
 .ft-logo {
-    border: 1px black dashed;
-    background-color: #ffb6c1;
-    padding: 10px 15px;
-
-    /* width: 75px;
-    height: 40px; */
+    padding: 10px 0px;
 }
 
-.thebutton {
-    border: 1px black dashed;
-    background-color: #ffb6c1;
-    padding: 10px 15px;
+.signing-button {
+    color: white;
 
-    /* width: 75px;
-    height: 40px; */
+    padding: 15px;
+    border-radius: 50px;
+
+    border: none;
+    background-color: #8ea1e1;
+    font-size: 15px;
 }
 
 /* footer end */
