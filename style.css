@@ -239,17 +239,49 @@ footer {
 #footer-element1 {
     max-width: 1250px;
     margin: 0 auto;
-    padding: 10px 0px 45px 0px;
+    padding: 100px 0px 45px 0px;
 }
 
 #footer-element1 > .first-box {
     border: 1px black dashed;
-    background-color: #f08080;
     flex-grow: 1.4;   /* width: 40%; */
     height: 600px;
 }
 
-#footer-element1 > .second-box {
+.first-box > div {
+    color: #7289db;
+    font-size: 30px;
+    font-family: 'whitneysemibold';
+}
+
+.first-box > p {
+    color: white;
+    padding-top: 30px;
+}
+
+.first-box > p > img {
+    height: 20px;
+}
+
+.first-box > p > svg {
+    fill: white;
+    vertical-align: middle;
+    height: 12px;
+}
+
+.social {
+    display: flex;
+    gap: 25px;
+
+    padding-top: 25px;
+}
+
+.social > svg {
+    height: 20px;
+    fill: white;
+}
+
+#footer-element1 > .column-box {
     border: 1px white dashed;
     background-color: #20b2aa;
     flex-grow: 1;       /* width: 28%; */
