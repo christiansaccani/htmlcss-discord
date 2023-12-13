@@ -213,6 +213,9 @@ main > section:nth-child(even) {
     background-image: url(./img/stars.svg);    /* come adattare */
     padding-top: 40px;
 
+    background-position: center;
+    background-repeat: no-repeat;
+
     font-size: 30px;
     font-weight: 600;
 }
