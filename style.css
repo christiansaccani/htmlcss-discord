@@ -176,16 +176,11 @@ main > section:nth-child(even) {
 /* APPUNTO PERSONALE: ricorda che hai impostato una max-widht, perciò justify-content e margin vanno combinati per mettere effettivamente l'elemento al centro */
 
 .img-box {
-    border: 1px black dashed;
-    /* background-color: #1e90ff; */
     flex-grow: 3;   /* width: 60%; */
     height: 520px;
 }
 
 .txt-box {
-    border: 1px black dashed;
-    background-color: #ffc0cb;
-
     flex-grow: 2;   /* width: 40%; */
     height: 520px;
     padding: 35px;
