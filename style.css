@@ -23,7 +23,7 @@
 /* nav */
 
 nav {
-    background-color: #add8e6;
+    background-color: #3161e0;
     padding: 0px 10px;
 }
 
@@ -31,15 +31,15 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
     padding: 15px 0px;
     max-width: 1250px;
     margin: 0 auto;
 }
 
-.nav-elements > div {   /* orange-box */
-    border: 1px black dashed;
-    background-color: #daa520;
+.nav-elements > div {
+    background-color: #3161e0;
 
     padding: 10px;
 }
@@ -63,12 +63,20 @@ nav {
 
 .link-square ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .login-square {
     text-align: end;
     flex-grow: 1;
+}
+
+#login-button {
+    padding: 15px;
+    border-radius: 50px;
+
+    border: none;
+    background-color: white;
 }
 
 /* nav end */
