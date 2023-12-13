@@ -239,12 +239,13 @@ footer {
 #footer-element1 {
     max-width: 1250px;
     margin: 0 auto;
-    padding: 100px 0px 45px 0px;
+    padding-top: 100px;
+    border-bottom: 1px solid #7289db;
 }
 
 #footer-element1 > .first-box {
     flex-grow: 1.4;   /* width: 40%; */
-    height: 600px;
+    height: 400px;
 }
 
 .first-box > div {
@@ -286,7 +287,7 @@ footer {
 
 #footer-element1 > .column-box {
     flex-grow: 1;       /* width: 28%; */
-    height: 600px;
+    height: 400px;
 
     padding-top: 5px;
 }
