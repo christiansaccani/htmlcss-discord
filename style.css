@@ -120,7 +120,7 @@ header {
 
 
 
-.jumbo-box > div > button:first-of-type
+.mac-button
 {
     padding: 20px 35px;
     border-radius: 50px;
@@ -190,14 +190,34 @@ main > section:nth-child(even) {
 
 /* bigboy */
 
-.bigboy-box {
-    border: 1px black dashed;
-    background-color: #228b22;
+.big-box {
+    margin-bottom: 90px;
+
     flex-grow: 1;   /* widht=100% */
-    height: 935px;
+    height: 1100px;
+    text-align: center;
+}
+
+.big-box > img {
+    width: 100%;
+}
+
+.big-box > div:last-of-type {
+    background-image: url(./img/stars.svg);    /* come adattare */
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mac-button:last-of-type {
+    margin-top: 40px;
+
+    color: white;
+    background-color: #8ea1e1;
 }
 
 /* main end */
+
 
 /* footer */
 
