@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* margin: 0 auto; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* nav */
+
+nav {
+    background-color: #add8e6;
+    padding: 0px 10px;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 15px 0px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.nav-elements > div {   /* orange-box */
+    border: 1px black dashed;
+    background-color: #daa520;
+
+    padding: 10px;
+}
+
+.logo-square {
+    flex-grow: 1;
+}
+
+.link-square {
+    text-align: center;
+    flex-grow: 2;
+}
+
+.link-square ul {
+    display: flex;
+    justify-content: center;
+
+    gap: 12px;
+    list-style: none;
+}
+
+.link-square ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.login-square {
+    text-align: end;
+    flex-grow: 1;
+}
+
+/* nav end */
+
+/* header */
+
+header {
+    background-color: #00008b;
+    padding: 0px 10px;
+}
+
+.header-element {
+    padding: 50px 0px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.pink-box {
+    border: 1px black dashed;
+    background-color: #ee82ee;
+    width: 100%;
+    height: 420px;
+}
+
+/* header end */
+
+/* main */
+
+main > section:nth-child(odd) {
+    background-color: #ffffff;
+    padding: 0px 10px;
+}
+
+main > section:nth-child(even) {
+    background-color: #d3d3d3;
+    padding: 0px 10px;
+}
+
+/* opzione utilizzata per permettere l'alternanza */
+
+.section-element {
+    padding: 50px 0px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* APPUNTO PERSONALE: ricorda che hai impostato una max-widht, perciò justify-content e margin vanno combinati per mettere effettivamente l'elemento al centro */
+
+.img-box {
+    border: 1px black dashed;
+    background-color: #1e90ff;
+    flex-grow: 3;   /* width: 60%; */
+    height: 520px;
+}
+
+.txt-box {
+    border: 1px black dashed;
+    background-color: #ffc0cb;
+    flex-grow: 2;   /* width: 40%; */
+    height: 520px;
+}
+
+.green-box {
+    border: 1px black dashed;
+    background-color: #228b22;
+    flex-grow: 1;   /* widht=100% */
+    height: 935px;
+}
+
+/* main end */
+
+/* footer */
+
+footer {
+    background-color: #23272a;
+    padding: 0px 10px;
+}
+
+#footer-element1 {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 10px 0px 45px 0px;
+}
+
+#footer-element1 > .first-box {
+    border: 1px black dashed;
+    background-color: #f08080;
+    flex-grow: 1.4;   /* width: 40%; */
+    height: 600px;
+}
+
+#footer-element1 > .second-box {
+    border: 1px white dashed;
+    background-color: #20b2aa;
+    flex-grow: 1;       /* width: 28%; */
+    height: 600px;
+}
+
+#footer-element2 {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.container-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #7fffd4;
+    flex-grow: 1;   /* width: 100%; */
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.ft-logo {
+    border: 1px black dashed;
+    background-color: #ffb6c1;
+    padding: 10px 15px;
+
+    /* width: 75px;
+    height: 40px; */
+}
+
+.thebutton {
+    border: 1px black dashed;
+    background-color: #ffb6c1;
+    padding: 10px 15px;
+
+    /* width: 75px;
+    height: 40px; */
+}
+
+/* footer end */
