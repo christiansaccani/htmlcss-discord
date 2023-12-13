@@ -1,9 +1,9 @@
-/* test */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-size: 20px;
 }
 
 .container {
@@ -57,13 +57,14 @@ nav {
     display: flex;
     justify-content: center;
 
-    gap: 12px;
+    gap: 25px;
     list-style: none;
 }
 
 .link-square ul li a{
     text-decoration: none;
     color: white;
+    font-size: 15px;
 }
 
 .login-square {
@@ -77,6 +78,7 @@ nav {
 
     border: none;
     background-color: white;
+    font-size: 15px;
 }
 
 /* nav end */
@@ -84,21 +86,62 @@ nav {
 /* header */
 
 header {
-    background-color: #00008b;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
     padding: 0px 10px;
 }
 
 .header-element {
+
     padding: 50px 0px;
     max-width: 950px;
     margin: 0 auto;
 }
 
-.pink-box {
-    border: 1px black dashed;
-    background-color: #ee82ee;
+.jumbo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     width: 100%;
     height: 420px;
+}
+
+.jumbo-box > div {
+    color: white;
+    text-align: center;
+}
+
+.jumbo-box > div > #jumbo-title {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.jumbo-box > div > p {
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+.jumbo-box > div > button:first-of-type
+{
+    padding: 20px 35px;
+    border-radius: 50px;
+    margin-right: 16px;
+
+    border: none;
+    background-color: white;
+}
+
+.jumbo-box > div > button:last-of-type
+{
+    padding: 20px 35px;
+    border-radius: 50px;
+    margin-left: 17px;
+
+    color: white;
+    border: none;
+    background-color: #23272a;
 }
 
 /* header end */
