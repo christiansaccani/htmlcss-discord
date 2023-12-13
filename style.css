@@ -91,6 +91,12 @@ header {
     padding: 0px 10px;
 }
 
+#page-title {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
 .header-element {
 
     padding: 50px 0px;
@@ -112,16 +118,7 @@ header {
     text-align: center;
 }
 
-.section-title {
-    font-size: 50px;
-    font-weight: 600;
-    padding-bottom: 30px;
-}
 
-.section-p {
-    font-weight: 400;
-    padding: 30px 0;
-}
 
 .jumbo-box > div > button:first-of-type
 {
@@ -147,6 +144,16 @@ header {
 /* header end */
 
 /* main */
+.section-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.section-p {
+    font-weight: 400;
+    padding: 25px 0;
+    line-height: 1.4em;
+}
 
 main > section:nth-child(odd) {
     background-color: #ffffff;
@@ -178,6 +185,7 @@ main > section:nth-child(even) {
 .txt-box {
     border: 1px black dashed;
     background-color: #ffc0cb;
+
     flex-grow: 2;   /* width: 40%; */
     height: 520px;
     padding: 35px;
@@ -185,7 +193,9 @@ main > section:nth-child(even) {
     text-align: left;
 }
 
-.green-box {
+/* bigboy */
+
+.bigboy-box {
     border: 1px black dashed;
     background-color: #228b22;
     flex-grow: 1;   /* widht=100% */
