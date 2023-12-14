@@ -360,6 +360,6 @@ footer {
 }
 
 .wave:nth-of-type(2) {
-    background-color: #dbdbdb;
+    margin-top: -32px;
     filter: invert(100%);
 }
