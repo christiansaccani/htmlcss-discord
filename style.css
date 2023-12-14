@@ -56,6 +56,7 @@ nav {
 
 .logo-square {
     flex-grow: 1;
+    margin-top: 5px;
 }
 
 .link-square {
@@ -83,12 +84,20 @@ nav {
 }
 
 #login-button {
-    padding: 15px;
     border-radius: 50px;
 
     border: none;
     background-color: white;
     font-size: 15px;
+}
+
+#login-button > a {
+    padding: 15px;
+    display: inline-block;
+
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
 }
 
 /* nav end */
@@ -139,15 +148,23 @@ header {
     background-color: white;
 }
 
-.jumbo-box > div > button:last-of-type
-{
+.mac-button > a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo-box > div > button:last-of-type {
     padding: 20px 35px;
     border-radius: 50px;
     margin-left: 15px;
 
-    color: white;
     border: none;
     background-color: #23272a;
+}
+
+.jumbo-box > div > button:last-of-type > a {
+    text-decoration: none;
+    color: white;
 }
 
 /* header end */
@@ -223,10 +240,13 @@ main > section:nth-of-type(even) {
 .mac-button:last-of-type {
     margin-top: 40px;
 
-    color: white;
     background-color: #8ea1e1;
 }
 
+.mac-button:last-of-type > a {
+    text-decoration: none;
+    color: white;
+}
 /* main end */
 
 
@@ -334,13 +354,17 @@ footer {
 }
 
 .signing-button {
-    color: white;
-
-    padding: 15px;
     border-radius: 50px;
 
     border: none;
     background-color: #8ea1e1;
+}
+
+.signing-button > a {
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
     font-size: 15px;
 }
 
