@@ -228,7 +228,7 @@ main > section:nth-of-type(even) {
     width: 100%;
 }
 
-.big-box > div:last-of-type {
+.big-box > h3 {
     background-image: url(./img/stars.svg);    /* come adattare */
     padding-top: 40px;
 
@@ -271,7 +271,7 @@ footer {
     height: 400px;
 }
 
-.first-box > div {
+.first-box > h4 {
     color: #7289db;
     font-size: 30px;
     font-family: 'whitneysemibold';
@@ -315,7 +315,7 @@ footer {
     padding-top: 5px;
 }
 
-#footer-element1 > .column-box > figcaption {
+#footer-element1 > .column-box > h5 {
     font-family: 'whitneysemibold';
     color: #7289db;
 
